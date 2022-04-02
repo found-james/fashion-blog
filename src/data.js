@@ -1,10 +1,12 @@
 
-    const navData = { 
-        headerNav: { label: "Main Navigation", role: "navigation"},
-        headerList: { one: "Women's", two: "Men's", three: "On the Street", four:"The Catwalk", five:"AdWatch", six:"About" },
-        footerNav: { label: "Footer Navigation", role: "naivagtion"},
-        footerList: { 1: "Home", 2: "Women's", 3: "Men's", 4: "On the Street", 5:"The Catwalk", 6:"AdWatch", 7:"About", 8:"Tips"}
-    } 
+    const navData = ["Women's", "Men's", "On the Street", "The Catwalk", "AdWatch", "About"] 
+    
+    // { 
+    //     headerNav: { label: "Main Navigation", role: "navigation"},
+    //     headerList: ,
+    //     footerNav: { label: "Footer Navigation", role: "naivagtion"},
+    //     footerList: { 1: "Home", 2: "Women's", 3: "Men's", 4: "On the Street", 5:"The Catwalk", 6:"AdWatch", 7:"About", 8:"Tips"}
+    // } 
     
     export { navData }
 
