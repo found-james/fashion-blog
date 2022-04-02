@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+html {
+    border-left: 5px solid lightgray;
+    width: 1476px;
+    height: 3375px;
+}
+
+body{
+    margin: auto;
+    width: 90%;
+    min-width: 1000px;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+header h1, header h4, header nav, main, footer {
+    position: relative;
+    top: 100px;
+}
+
+header h4 {
+    position: relative;
+    top: 80px;
+}
+
+header nav {
+    position: relative;
+    top: 130px;
+}
+
+main, footer {
+    position: realtive;
+    top: 190px;
+}
+
+header a, footer a {
+    font-size: 5rem;
+    color: gray;
+}
+
+header a:link, footer a:link {
+    color: grey;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+header li, footer li {
+    border-bottom: 2px solid gray;
+}
+
+header > h1 {
+    
+    margin: 0;
+    font-size: 9rem;
+    font-weight: 100;
+    display: inline-block;
+    color: tomato;
+}
+
+header > h4 {
+    margin: 0;
+    
+    font-size: 3.5rem;
+    font-weight: 100;
+    display: inline-block;
+}
+
+main > article {
+    position: relative;
+    top: 100px;
+}
+
+main > article:nth-of-type(2) {
+    position: relative;
+    top: 300px;
+}
+main > 
+article > 
+section:nth-of-type(1) >
+h3
+{
+    margin: 0px;
+    font-size: 3rem;
+    color: gray;
+    font-weight: 100;
+    font-family: inherit
+}
+
+main > 
+article > 
+section:nth-of-type(1) >
+h2
+{
+    font-size: 5rem;
+    font-weight: 100;
+    font-family: inherit;
+    margin: 0px;
+    block-size: fit-content;
+
+}
+
+main > 
+article > 
+section:nth-of-type(2) 
+{
+    position: relative;
+    top: 30px;
+}
+
+main > 
+article > 
+section:nth-of-type(3) > 
+p::first-letter 
+{
+    padding: 10px 15px 0 0;
+    float: left;
+    width: 3rem;
+    font-size: 11rem;
+    line-height: 80%;
+    color: lightgray;
+}
+
+main > 
+article > 
+section:nth-of-type(3)
+{
+    position: relative;
+    top: 30px;
+}
+main >
+article >
+section:nth-of-type(3) >
+p 
+{
+    font-size: 2rem;
+    line-height: 3.25rem;
+}
+
+main > 
+article:nth-of-type(1) > 
+section:nth-of-type(2)  {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center;
+    background-image: url(../public/blog-image-1.jpg);
+    background-size: cover;
+}
+
+main > 
+article  > 
+section:nth-of-type(4)  {
+    display: flex;
+    justify-content: flex-end ;
+}
+
+main >
+article >
+section:nth-of-type(4), hr{
+    position: relative;
+    top: 100px;
+}
+
+hr{
+    position: relative;
+    top: 130px;
+}
+main > 
+article > 
+section:nth-of-type(4) > 
+p
+{
+    margin: 0;
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    width: fit-content;
+    color: tomato;
+    padding: 0;
+}
+
+main > 
+article:nth-of-type(2) > 
+section:nth-of-type(2)  {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center;
+    background-image: url(../public/blog-image-2.jpg);
+    background-size: cover;
+}
+
+footer {
+    top: 760px;
+}
+footer a:link {
+    color: tomato;
+    
+}
+
+footer li {
+    border-bottom: 2px solid tomato;
+    color: tomato;
+    font-size: 2rem;
+
+}
+
+footer > section > h2 {
+    font-size: 2.5rem;
+    color: gray;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0px;
+    margin: 0px;
+
+
+}
+
