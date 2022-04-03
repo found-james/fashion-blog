@@ -129,6 +129,7 @@ p::first-letter
     font-size: 11rem;
     line-height: 80%;
     color: lightgray;
+    border: 1px solid black;
 }
 
 main > 

@@ -1,13 +1,20 @@
 export default function Nav ( props ) {
+ 
+
+    if (props.navDataH) console.log(props, "ey yo")
+
     return (
         <nav aria-label="Main Navigation" role="navigation">
             <ul>
-                <a href="#"><li>Women's</li></a>
-                <a href="#"><li>Men's</li></a>
-                <a href="#"><li>On the Street</li></a>
-                <a href="#"><li>The Catwalk</li></a>
-                <a href="#"><li>AdWatch</li></a>
-                <a href="#"><li>About</li></a>
+
+                {
+                    props.navDataH && props.navDataH.headerList.map((item, idx) => {
+                                    return (
+                                        <a href="#"><li key={ idx }>{ item }</li></a>
+                                        )
+                    })
+                
+                } 
             </ul>
         </nav>
     )
